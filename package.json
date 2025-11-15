@@ -1,0 +1,35 @@
+{
+  "name": "interact-admin-panel-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation framework for interact",
+  "main": "index.js",
+  "scripts": {
+    "summary": "playwright show-report reports\\playwright-report",
+    "test": "npx playwright test",
+    "test-standard-user": "npx playwright test --project=standardUserTestCases --grep \"@standardUser\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "dotenv": "^16.4.5",
+    "monocart-reporter": "^2.9.17",
+    "playwright-ctrf-json-reporter": "^0.0.19",
+    "fs": "^0.0.1-security",
+    "get-port": "^7.1.0",
+    "lighthouse": "^11.5.0",
+    "playwright-lighthouse": "^4.0.0",
+    "rimraf": "^5.0.5"
+  }
+}
