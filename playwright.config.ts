@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export const STANDARD_USER_STORAGE_STATE = path.join(__dirname, 'utils/functions/loginSetup/loginData/standardUserStorageState.json');
+// export const STANDARD_USER_STORAGE_STATE = path.join(__dirname, 'utils/functions/loginSetup/loginData/standardUserStorageState.json');
 
 export default defineConfig({
   globalTeardown: 'globalTeardown.ts',
@@ -53,8 +53,7 @@ export default defineConfig({
       testDir: './tests',
       testMatch: /.*.spec.ts/,
       use: {
-        ...devices['Desktop Chrome'],
-        storageState: STANDARD_USER_STORAGE_STATE,
+        ...devices['Desktop Chrome'],        
       },
       // dependencies: ['standardUserSetup'],
     },
