@@ -9,8 +9,8 @@ jobs:
   playwright-e2e-job:
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    environment:
-      name: qa-env
+    # environment:
+    #   name: qa-env
     env:
       STANDARD_USER_EMAIL: ${{ secrets.STANDARD_USER_EMAIL }}
       STANDARD_USER_PASSWORD: ${{ secrets.STANDARD_USER_PASSWORD }}
