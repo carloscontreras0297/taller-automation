@@ -12,11 +12,11 @@ jobs:
     # environment:
     #   name: qa-env
     env:
-      STANDARD_USER_EMAIL: ${{ secrets.STANDARD_USER_EMAIL }}
-      STANDARD_USER_PASSWORD: ${{ secrets.STANDARD_USER_PASSWORD }}
-      UI_BASE_URL: ${{ secrets.UI_BASE_URL }}
-      API_BASE_URL: ${{ secrets.API_BASE_URL }}
-      REQRES_API_KEY: ${{ secrets.REQRES_API_KEY }}
+      STANDARD_USER_EMAIL: ${{ secrets.env.STANDARD_USER_EMAIL }}
+      STANDARD_USER_PASSWORD: ${{ secrets.envSTANDARD_USER_PASSWORD }}
+      UI_BASE_URL: ${{ secrets.env.UI_BASE_URL }}
+      API_BASE_URL: ${{ secrets.env.API_BASE_URL }}
+      REQRES_API_KEY: ${{ secrets.env.REQRES_API_KEY }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
