@@ -1,0 +1,310 @@
+{
+  "results": {
+    "tool": {
+      "name": "playwright"
+    },
+    "summary": {
+      "tests": 10,
+      "passed": 10,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1763167869260,
+      "stop": 1763167892691,
+      "suites": 0
+    },
+    "tests": [
+      {
+        "name": "Obtain users list @ApiTest",
+        "status": "passed",
+        "duration": 850,
+        "start": 1763167870,
+        "stop": 1763167871,
+        "rawStatus": "passed",
+        "tags": [
+          "@ApiTest"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\api\\apiTest.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > api\\apiTest.spec.ts > API TEST CASES",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\api-apiTest-API-TEST-CASES-Obtain-users-list-ApiTest-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Create a user @ApiTest",
+        "status": "passed",
+        "duration": 896,
+        "start": 1763167870,
+        "stop": 1763167871,
+        "rawStatus": "passed",
+        "tags": [
+          "@ApiTest"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\api\\apiTest.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > api\\apiTest.spec.ts > API TEST CASES",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\api-apiTest-API-TEST-CASES-Create-a-user-ApiTest-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Delete a user @ApiTest",
+        "status": "passed",
+        "duration": 1114,
+        "start": 1763167870,
+        "stop": 1763167871,
+        "rawStatus": "passed",
+        "tags": [
+          "@ApiTest"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\api\\apiTest.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > api\\apiTest.spec.ts > API TEST CASES",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\api-apiTest-API-TEST-CASES-Delete-a-user-ApiTest-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Audit login page @lighthouse",
+        "status": "passed",
+        "duration": 20143,
+        "start": 1763167871,
+        "stop": 1763167891,
+        "rawStatus": "passed",
+        "tags": [
+          "@lighthouse"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\lightHouse\\lightHouse.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > lightHouse\\lightHouse.spec.ts > Audit Pages",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\lightHouse-lightHouse-Audi-fd429-Audit-login-page-lighthouse-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Audit inventory page @lighthouse",
+        "status": "passed",
+        "duration": 21026,
+        "start": 1763167871,
+        "stop": 1763167892,
+        "rawStatus": "passed",
+        "tags": [
+          "@lighthouse"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\lightHouse\\lightHouse.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > lightHouse\\lightHouse.spec.ts > Audit Pages",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\lightHouse-lightHouse-Audi-5db66-t-inventory-page-lighthouse-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Inventory page shows products after login @UITest",
+        "status": "passed",
+        "duration": 2827,
+        "start": 1763167870,
+        "stop": 1763167873,
+        "rawStatus": "passed",
+        "tags": [
+          "@UITest"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\ui\\uiTests.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > ui\\uiTests.spec.ts > UI TEST CASES",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\ui-uiTests-UI-TEST-CASES-I-34ff2-products-after-login-UITest-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "All inventory items have a name and price @UITest",
+        "status": "passed",
+        "duration": 2393,
+        "start": 1763167873,
+        "stop": 1763167876,
+        "rawStatus": "passed",
+        "tags": [
+          "@UITest"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\ui\\uiTests.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > ui\\uiTests.spec.ts > UI TEST CASES",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\ui-uiTests-UI-TEST-CASES-A-1fda5-ave-a-name-and-price-UITest-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "Each item has an \"Add to Cart\" button @UITest",
+        "status": "passed",
+        "duration": 2056,
+        "start": 1763167876,
+        "stop": 1763167878,
+        "rawStatus": "passed",
+        "tags": [
+          "@UITest"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\ui\\uiTests.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > ui\\uiTests.spec.ts > UI TEST CASES",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\ui-uiTests-UI-TEST-CASES-E-ca8a4-n-Add-to-Cart-button-UITest-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "User can add and remove an item from cart @UITest",
+        "status": "passed",
+        "duration": 2083,
+        "start": 1763167878,
+        "stop": 1763167880,
+        "rawStatus": "passed",
+        "tags": [
+          "@UITest"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\ui\\uiTests.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > ui\\uiTests.spec.ts > UI TEST CASES",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\ui-uiTests-UI-TEST-CASES-U-8bc1e-ve-an-item-from-cart-UITest-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "User can add a product to the cart and navigate to it @UITest",
+        "status": "passed",
+        "duration": 2238,
+        "start": 1763167880,
+        "stop": 1763167882,
+        "rawStatus": "passed",
+        "tags": [
+          "@UITest"
+        ],
+        "type": "e2e",
+        "filePath": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\tests\\ui\\uiTests.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "standardUserTestCases > ui\\uiTests.spec.ts > UI TEST CASES",
+        "attachments": [
+          {
+            "name": "trace",
+            "contentType": "application/zip",
+            "path": "C:\\Users\\prouser\\Documents\\GitHub\\taller-automation\\test-results\\ui-uiTests-UI-TEST-CASES-U-594a2-t-and-navigate-to-it-UITest-standardUserTestCases\\trace.zip"
+          }
+        ],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      }
+    ]
+  }
+}
